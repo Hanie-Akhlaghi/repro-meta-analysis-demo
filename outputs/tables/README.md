@@ -1,1 +1,2 @@
-Outputs will appear here after running `source("scripts/analysis.R")`.
+Generated tables/logs (summary + leave-one-out). Run `source("scripts/analysis.R")` to reproduce.
+
