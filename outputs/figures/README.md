@@ -1,1 +1,2 @@
-Outputs will appear here after running `source("scripts/analysis.R")`.
+Generated figures (forest + funnel). Run `source("scripts/analysis.R")` to reproduce.
+
