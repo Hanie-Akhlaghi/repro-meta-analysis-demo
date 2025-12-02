@@ -1,0 +1,42 @@
+Reproducible Meta-analysis Demo (R / metafor)
+Run date: 2025-12-02
+
+Model: Random-effects (REML)
+
+
+Random-Effects Model (k = 5; tau^2 estimator: REML)
+
+  logLik  deviance       AIC       BIC      AICc   
+  2.8576   -5.7152   -1.7152   -2.9426   10.2848   
+
+tau^2 (estimated amount of total heterogeneity): 0.0040 (SE = 0.0096)
+tau (square root of estimated tau^2 value):      0.0632
+I^2 (total heterogeneity / total variability):   29.37%
+H^2 (total variability / sampling variability):  1.42
+
+Test for Heterogeneity:
+Q(df = 4) = 5.6714, p-val = 0.2251
+
+Model Results:
+
+estimate      se    zval    pval   ci.lb   ci.ub     
+  0.1688  0.0522  3.2335  0.0012  0.0665  0.2712  ** 
+
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+---
+Bias test (regtest):
+
+Regression Test for Funnel Plot Asymmetry
+
+Model:     mixed-effects meta-regression model
+Predictor: standard error
+
+Test for Funnel Plot Asymmetry: z =  2.3651, p = 0.0180
+Limit Estimate (as sei -> 0):   b = -0.5498 (CI: -1.1441, 0.0446)
+
+
+---
+Leave-one-out saved to outputs/tables/leave_one_out.csv
